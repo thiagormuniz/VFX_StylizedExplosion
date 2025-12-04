@@ -23,7 +23,6 @@ Material:
   m_Name: Beam01
   m_Shader: {fileID: -6465566751694194690, guid: 013d1bc0cad4044c4957e468d8a27040, type: 3}
   m_ValidKeywords:
-  - _ALPHAPREMULTIPLY_ON
   - _ALPHATEST_ON
   - _SURFACE_TYPE_TRANSPARENT
   m_InvalidKeywords: []
@@ -58,17 +57,17 @@ Material:
     m_Floats:
     - _AlphaClip: 1
     - _AlphaClipp: 0
-    - _Blend: 1
+    - _Blend: 0
     - _CastShadows: 1
     - _Cull: 2
     - _DstBlend: 10
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _SrcBlend: 1
+    - _SrcBlend: 5
     - _Surface: 1
     - _ZTest: 4
     - _ZWrite: 0
     - _ZWriteControl: 0
     m_Colors:
-    - _Color: {r: 25.992073, g: 25.992073, b: 25.992073, a: 0}
+    - _Color: {r: 8.47419, g: 8.47419, b: 8.47419, a: 0}
   m_BuildTextureStacks: []
