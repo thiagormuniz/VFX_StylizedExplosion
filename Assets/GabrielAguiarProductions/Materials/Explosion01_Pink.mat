@@ -60,7 +60,7 @@ Material:
     - _Smothness: 0
     - _SrcBlend: 1
     - _Surface: 0
-    - _VertexAmount: 0.361
+    - _VertexAmount: 0.077
     - _VertexScale: 40
     - _VoronoiScale: 9
     - _VoronoiSpeed: 6

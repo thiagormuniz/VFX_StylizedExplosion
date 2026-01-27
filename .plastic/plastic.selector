@@ -1,0 +1,4 @@
+repository "VFX_StylizedExplosion_2021.2_URP00/VFX_StylizedExplosion_2021.2_URP00@4673804318155@cloud"
+  path "/"
+    br "/main"
+    co "/main"

@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-7985534535150945910
+--- !u!114 &-8130502154042881168
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20,21 +20,30 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Explosion01_orange
-  m_Shader: {fileID: -6465566751694194690, guid: 44e1dfa2856364c56901b315c80db1e6, type: 3}
+  m_Name: Beam01_Skull
+  m_Shader: {fileID: -6465566751694194690, guid: 013d1bc0cad4044c4957e468d8a27040, type: 3}
   m_ValidKeywords:
-  - _ALPHATEST_ON
+  - _SURFACE_TYPE_TRANSPARENT
   m_InvalidKeywords: []
-  m_LightmapFlags: 2
+  m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 2450
+  m_CustomRenderQueue: 3000
   stringTagMap:
-    RenderType: TransparentCutout
-  disabledShaderPasses: []
+    RenderType: Transparent
+  disabledShaderPasses:
+  - DepthOnly
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 4989d26154a8b4bd6a33104816b991cb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainText:
+        m_Texture: {fileID: 10300, guid: 0000000000000000f000000000000000, type: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -49,27 +58,19 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _AlphaClip: 1
-    - _Blend: 0
+    - _AlphaClip: 0
+    - _AlphaClipp: 0
+    - _Blend: 2
     - _CastShadows: 1
     - _Cull: 2
-    - _DstBlend: 0
+    - _DstBlend: 1
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _ReceiveShadows: 1
-    - _Smothness: 0.1
-    - _SrcBlend: 1
-    - _Surface: 0
-    - _VertexAmount: 0.2
-    - _VertexScale: 20
-    - _VoronoiScale: 7
-    - _VoronoiSpeed: 5
-    - _WorkflowMode: 1
+    - _SrcBlend: 5
+    - _Surface: 1
     - _ZTest: 4
-    - _ZWrite: 1
+    - _ZWrite: 0
     - _ZWriteControl: 0
     m_Colors:
-    - _Color: {r: 12.996038, g: 1.9876295, b: 0, a: 1}
-    - _Emission: {r: 0, g: 0, b: 0, a: 1}
-    - _VertexSpeed: {r: 0.5, g: 0, b: 0, a: 0}
+    - _Color: {r: 1.4928529, g: 4.4200153, b: 0, a: 1}
   m_BuildTextureStacks: []
